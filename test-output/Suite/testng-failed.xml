@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="2" name="ie(failed)" parallel="tests">
+    <parameter name="myBrowser" value="ie"/>
+    <classes>
+      <class name="com.gm.Gm">
+        <methods>
+          <include name="test1"/>
+          <include name="main"/>
+          <include name="post"/>
+        </methods>
+      </class> <!-- com.gm.Gm -->
+    </classes>
+  </test> <!-- ie(failed) -->
+</suite> <!-- Failed suite [Suite] -->
