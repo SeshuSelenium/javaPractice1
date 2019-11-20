@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
-  <test thread-count="2" name="ie(failed)" parallel="tests">
-    <parameter name="myBrowser" value="ie"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.gm.Gm">
+      <class name="naukri.Naukri">
         <methods>
-          <include name="test1"/>
-          <include name="main"/>
+          <include name="pre"/>
+          <include name="firstWindow"/>
           <include name="post"/>
         </methods>
-      </class> <!-- com.gm.Gm -->
+      </class> <!-- naukri.Naukri -->
     </classes>
-  </test> <!-- ie(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.gm.Gm">
+      <class name="naukri.Naukri">
         <methods>
-          <include name="test1"/>
-          <include name="main"/>
+          <include name="pre"/>
+          <include name="firstWindow"/>
           <include name="post"/>
         </methods>
-      </class> <!-- com.gm.Gm -->
+      </class> <!-- naukri.Naukri -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
